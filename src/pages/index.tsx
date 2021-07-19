@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import AppHeader from "../components/AppHeader/AppHeader.component";
 
 export default function Home() {
 	return (
@@ -13,9 +14,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div>
-				<h1>Let&apos;s build Hulu</h1>
-
 				{/* Header */}
+				<AppHeader />
 
 				{/* Nav */}
 
