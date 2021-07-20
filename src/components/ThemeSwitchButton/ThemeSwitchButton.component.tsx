@@ -10,16 +10,16 @@ const ThemeSwitchButton = () => {
 	return (
 		<button
 			onClick={toggleMode}
-			className="group flex flex-col items-center gap-1 group cursor-pointer w-12 sm:w-20"
+			className="group flex flex-col items-center gap-1 group cursor-pointer w-12 sm:w-20 pb-6"
 		>
 			{isDarkMode ? (
-				<SunIcon className="h-8 text-yellow-500 group-hover:animate-bounce" />
+				<SunIcon className="h-8 text-yellow-500 " />
 			) : (
-				<MoonIcon className="h-8 text-onNeutralBg group-hover:animate-bounce" />
+				<MoonIcon className="h-8 text-onNeutralBg " />
 			)}
-			<p className="opacity-0 group-hover:opacity-100 tracking-widest text-onNeutralBg">
+			{/* <p className="opacity-0 group-hover:opacity-100 tracking-widest text-onNeutralBg">
 				{state.mode === ThemeMode.DARK ? "LIGHT UI" : "DARK UI"}
-			</p>
+			</p> */}
 		</button>
 	);
 };
