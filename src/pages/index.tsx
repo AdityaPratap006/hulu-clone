@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import AppHeader from "../components/AppHeader/AppHeader.component";
+import Nav from "../components/Nav/Nav.component";
 
 export default function Home() {
 	return (
@@ -13,12 +13,9 @@ export default function Home() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="min-h-screen  ">
-				{/* Header */}
-				<AppHeader />
-
+			<div>
 				{/* Nav */}
-
+				<Nav />
 				{/* Results */}
 			</div>
 		</Fragment>

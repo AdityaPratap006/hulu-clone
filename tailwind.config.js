@@ -36,7 +36,10 @@ module.exports = {
 			visibility: ["hover", "focus"],
 			height: ["hover", "focus"],
 			scale: ["hover", "focus"],
+			textColor: ["active", "hover", "focus"],
+			padding: ["last"],
+			margin: ["last"],
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar-hide")],
 };
