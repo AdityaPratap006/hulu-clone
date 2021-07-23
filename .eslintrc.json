@@ -29,6 +29,7 @@
             {
                 "argsIgnorePattern": "^_"
             }
-        ]
+        ],
+        "camelcase": "off"
     }
 }
